@@ -16,16 +16,16 @@ server.log
 *.log
 
 # platform/sandbox dirs (not part of the product)
-db/
-prisma/
-upload/
-download/
-skills/
-scripts/
-examples/
-tests/
-mini-services/
-.zscripts/
+/db/
+/prisma/
+/upload/
+/download/
+/skills/
+/scripts/
+/examples/
+/tests/
+/mini-services/
+/.zscripts/
 agent-ctx/
 Caddyfile
 .eslintcache
