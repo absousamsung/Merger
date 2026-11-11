@@ -1,2 +1,35 @@
-skills/
+# dependencies / build
 node_modules/
+.next/
+.next-*/
+out/
+*.tsbuildinfo
+
+# env & secrets (never commit)
+.env
+.env.*
+!.env.example
+
+# logs
+dev.log
+server.log
+*.log
+
+# platform/sandbox dirs (not part of the product)
+db/
+prisma/
+upload/
+download/
+skills/
+scripts/
+examples/
+tests/
+mini-services/
+.zscripts/
+agent-ctx/
+Caddyfile
+.eslintcache
+
+# OS
+.DS_Store
+Thumbs.db

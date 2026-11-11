@@ -1,0 +1,9 @@
+{
+  "functions": { "api/**/*.js": { "maxDuration": 300 } },
+  "rewrites": [
+    { "source": "/api/jobs/:id/process", "destination": "/api/job-process" },
+    { "source": "/api/jobs/:id/video", "destination": "/api/job-video" },
+    { "source": "/api/jobs/:id", "destination": "/api/job" }
+  ],
+  "crons": [ { "path": "/api/cron", "schedule": "0 3 * * *" } ]
+}
